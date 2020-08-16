@@ -6,14 +6,15 @@ How this works?
 
 How to use?
 1.Clone the repository.
-2.Specify the required values in the info.py
-3.Run the run.py file.
-4.Webcam will open and start recording and displaying poses.The poses are recorded as encodings in json format for each frame in the directory named webcam encodings.  
+2.Download the required files in the directories named coco and mpi (download links and other details in coco/readme.txt and mpi/readme.txt)
+3.Specify the required values in the info.py
+4.Run the run.py file.
+5.Webcam will open and start recording and displaying poses.The poses are recorded as encodings in json format for each frame in the directory named webcam encodings.  
 
 
 Samples for demontration
 1.For the purpose of demonstration , there are two sample videos in the directory named samples (far.mp4 and near.mp4) which are dance tutorials of a person from different distances.
-2.There are sub folders within the samples directory from 1 to 700 , each one denoting a frame within these sample video files.
+2.There are sub folders within the samples directory from 30 to 49 (github does not allow more than 100 files), each one denoting a frame within these sample video files.
 3.Each directory has 5 files :
 a. far_encoding.json  : encoding of the corresponding frame in far.mp4
 b. near_encoding.json : encoding of the corresponding frame in near.mp4
