@@ -19,6 +19,6 @@ a. far_encoding.json  : encoding of the corresponding frame in far.mp4
 b. near_encoding.json : encoding of the corresponding frame in near.mp4
 c. far_frame.jpg      : estimated pose of the corresponding frame in far.mp4
 d. near_frame.jpg     : estimated pose of the corresponding frame in near.mp4
-e. simmilarity        : A measure of similarity between the two poses.
+e. simmilarity.txt    : A measure of similarity between the two poses.
 
 Different frames and their simmilarity measure can be viewed to get an idea of how good the model is performing.
