@@ -18,7 +18,7 @@ Requirements : cv2.__version__==4.3.0
 Samples for demontration
 1.For the purpose of demonstration , there are two sample videos in the directory named samples (far.mp4 and near.mp4) which are dance tutorials of a person from different distances.
 2.There are sub folders within the samples directory from 30 to 48 , each one denoting the corresponding frame within these sample video files (for ex: 30 denote the 30th frame  , only some frames have been uploaded because github has an upload limit of 100 files).
-3.Each such directory has 5 files :
+3.Each such sub folder has 5 files :
 a. far_encoding.json  : encoding of the corresponding frame in far.mp4
 b. near_encoding.json : encoding of the corresponding frame in near.mp4
 c. far_frame.jpg      : estimated pose of the corresponding frame in far.mp4
