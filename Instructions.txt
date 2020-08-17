@@ -12,6 +12,8 @@ How to use?
 5.Webcam will open and start recording and displaying poses.The poses are recorded as encodings in json format for each frame in the directory named webcam encodings.
 6.You can also run the demonstration.py file to get a demonstration of how the encoding and simmilarity of pose encodings work.
 
+Requirements : cv2.__version__==4.3.0
+
 (Optional)
 Samples for demontration
 1.For the purpose of demonstration , there are two sample videos in the directory named samples (far.mp4 and near.mp4) which are dance tutorials of a person from different distances.
