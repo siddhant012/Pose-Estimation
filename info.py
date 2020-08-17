@@ -1,3 +1,3 @@
-mode="coco"  #coco or mpi
-path="H:/visual studio code workspaces/Github Pose Estimation/"   #path to the loacl directory where this file has been kept
+mode="coco"  #coco or mpi , coco is more accurate but slower , mpi is less accurate but faster 
+path=""   #path to the loacl directory where this file has been kept
 display_shape=(300,300)     #webcam display shape
