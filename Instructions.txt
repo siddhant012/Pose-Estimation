@@ -1,7 +1,7 @@
 How this works?
 1.It works by creating a pose encoding for a given pose.Similar poses will have similar pose encodings and different poses will have dissimilar pose encodings. 
 2.Poses are recorded and displayed in real time and pose encodings are saved in json format in the directory named webcam encodings.
-3.These encodings can be loaded and compared to other pose encodings (of some other person) using the load_encoding() and get_simmilarity() functions in the file helper_funcs.py
+3.These encodings can be loaded and compared to other pose encodings (of some other person) using the load_encoding() , get_simmilarity() and other functions in the file helper_funcs.py
 
 
 How to use?
